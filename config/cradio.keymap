@@ -24,7 +24,7 @@
         symbols_layer {
             bindings = <
             &kp NUM_1       &kp NUM_2       &kp NUM_3       &kp NUM_4       &kp NUM_5       &kp NUM_6   &kp NUM_7   &kp NUM_8   &kp NUM_9   &kp NUM_0
-            &kp GRAVE       &kp SLASH       &kp LBKT        &kp RBKT        &kp BT_CLR      &none       &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
+            &kp GRAVE       &kp SLASH       &kp LBKT        &kp RBKT        &bt BT_CLR      &none       &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
             &mt LSHFT BSLH  &mt LCTRL EQL   &mt LALT MINUS  &mt LCMD SLASH  &kp ESC         &none       &kp HOME    &kp PG_DN   &kp PG_UP   &kp END
                                                             &kp LSHFT       &kp TAB         &kp BKSP    &kp RSHFT
             >;
