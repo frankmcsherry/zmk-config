@@ -41,7 +41,7 @@
             &kp QUOT        &kp CMMA    &kp DOT     &kp P       &kp Y           &kp F           &kp G       &kp C       &kp R       &kp L
             &kp A           &kp O       &kp E       &kp U       &kp I           &kp D           &kp H       &kp T       &kp N       &kp S
             &mo 1 SEMI      &mt LCTRL Q &mt LALT J  &mt LCMD K  &kp X           &kp B           &mt RCMD M  &mt RALT W  &mt RCTRL V &mo 1 Z
-                                                    &mt 1 TAB   &mt LSHFT SPC   &mt RSHFT RET   &mt 1 BKSP
+                                                    &lt 1 TAB   &mt LSHFT SPC   &mt RSHFT RET   &lt 1 BKSP
             >;
         };
 
