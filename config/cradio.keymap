@@ -18,7 +18,7 @@
         };
         combo_bksp {
             timeout-ms = <50>;
-            key-positions = <8 9>;
+            key-positions = <5 6>;
             bindings = <&kp BKSP>;
         };
         combo_tab {
@@ -38,10 +38,10 @@
 
         default_layer {
             bindings = <
-            &kp QUOT        &kp CMMA    &kp DOT     &kp P       &kp Y       &kp F       &kp G       &kp C       &kp R       &kp L
-            &kp A           &kp O       &kp E       &kp U       &kp I       &kp D       &kp H       &kp T       &kp N       &kp S
-            &mt LSHFT SEMI  &mt LCTRL Q &mt LALT J  &mt LCMD K  &kp X       &kp B       &mt RCMD M  &mt RALT W  &mt RCTRL V &mt RSHFT Z
-                                                    &kp LSHFT       &lt 1 SPC     &mt RSHFT RET     &mo 1
+            &kp QUOT        &kp CMMA    &kp DOT     &kp P       &kp Y           &kp F           &kp G       &kp C       &kp R       &kp L
+            &kp A           &kp O       &kp E       &kp U       &kp I           &kp D           &kp H       &kp T       &kp N       &kp S
+            &mo 1 SEMI      &mt LCTRL Q &mt LALT J  &mt LCMD K  &kp X           &kp B           &mt RCMD M  &mt RALT W  &mt RCTRL V &mo 1 Z
+                                                    &mt 1 TAB   &mt LSHFT SPC   &mt RSHFT RET   &mt 1 BKSP
             >;
         };
 
