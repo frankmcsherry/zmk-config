@@ -33,13 +33,11 @@
         symbols_layer {
             bindings = <
             &kp NUM_1       &kp NUM_2       &kp NUM_3       &kp NUM_4       &kp NUM_5       &kp NUM_6   &kp NUM_7   &kp NUM_8   &kp NUM_9   &kp NUM_0
-            &kp GRAVE       &kp SLASH       &kp LBKT        &kp RBKT        &bt BT_CLR      &none       &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
-            &mt LSHFT BSLH  &mt LCTRL EQL   &mt LALT MINUS  &mt LCMD SLASH  &kp ESC         &none       &kp HOME    &kp PG_DN   &kp PG_UP   &kp END
-                                                            &kp LSHFT       &mt LSHFT TAB   &mt RSHFT BKSP    &kp RSHFT
+            &kp GRAVE       &kp SLASH       &kp LBKT        &kp RBKT        &bt BT_CLR      &bt BT_SEL 0       &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
+            &mt LSHFT BSLH  &mt LCTRL EQL   &mt LALT MINUS  &mt LCMD SLASH  &kp ESC         &bt BT_SEL 1       &kp HOME    &kp PG_DN   &kp PG_UP   &kp END
+                                                            &kp TAB       &mt LSHFT TAB   &mt RSHFT BKSP    &kp BKSP
             >;
         };
 
     };
 };
-
-
